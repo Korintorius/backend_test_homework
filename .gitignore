@@ -17,5 +17,8 @@ build/
 *.log 
 !main.log
 
+# Игнорируем все *.doc файлы
+*.doc
+
 
 
