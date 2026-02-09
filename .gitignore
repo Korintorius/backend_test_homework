@@ -1,5 +1,5 @@
 # Игнорировать все .txt-файлы
-*.txt
+#*.txt
 
 # Игнорировать папку build
 build/
@@ -12,3 +12,10 @@ build/
 
 # Не игнорировать important.txt (исключение)
 !important.txt
+
+# Игнорируем все .log файлы, кроме main.log
+*.log 
+!main.log
+
+
+
